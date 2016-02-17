@@ -1,0 +1,33 @@
+{
+    "name": "tmannherz/oauth2-ringcentral",
+    "description": "RingCentral OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
+    "keywords": [
+        "oauth",
+        "oauth2",
+        "authorization",
+        "authentication",
+        "idp",
+        "identity",
+        "sso",
+        "single sign on",
+        "ring central",
+        "ringcentral",
+        "ringcentral api"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Todd Mannherz",
+            "email": "todd.mannherz@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "league/oauth2-client": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TMannherz\\OAuth2\\Client\\": "src/"
+        }
+    }
+}
