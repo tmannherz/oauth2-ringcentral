@@ -11,7 +11,7 @@ use Psr\Http\Message\ResponseInterface;
 /**
  * RingCentral OAuth 2 Provider.
  */
-class RingCentral extends AbstractProvider
+class Ringcentral extends AbstractProvider
 {
     use BearerAuthorizationTrait;
 
